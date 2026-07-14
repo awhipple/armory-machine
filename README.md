@@ -1,4 +1,6 @@
-# Armory & Machine
+<p align="center">
+  <img src="banner.png" alt="Armory &amp; Machine" width="100%">
+</p>
 
 A browser revival of **Armory & Machine** (2017), the idle game by Daybreak
 Industries, a Uken Games label. The original was delisted from Google Play in
