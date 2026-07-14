@@ -62,12 +62,12 @@
       }
 
       var buildUrl = "Build";
-      var loaderUrl = buildUrl + "/webgl.loader.js?v=472249a78316";
+      var loaderUrl = buildUrl + "/webgl.loader.js?v=1bb30887be01";
       var config = {
         arguments: [],
-        dataUrl: buildUrl + "/webgl.data.unityweb?v=418fdecd8490",
-        frameworkUrl: buildUrl + "/webgl.framework.js.unityweb?v=c96c9a4ddd9f",
-        codeUrl: buildUrl + "/webgl.wasm.unityweb?v=a8b715778175",
+        dataUrl: buildUrl + "/webgl.data.unityweb?v=5add04300fa6",
+        frameworkUrl: buildUrl + "/webgl.framework.js.unityweb?v=38694ba5f67f",
+        codeUrl: buildUrl + "/webgl.wasm.unityweb?v=b6cbdbfd8c77",
         streamingAssetsUrl: "StreamingAssets",
         companyName: "Daybreak",
         productName: "Armory _ Machine",
@@ -114,8 +114,8 @@
 
       } else {
         // Desktop style: Render the game canvas in a window that can be maximized to fullscreen:
-        canvas.style.width = "960px";
-        canvas.style.height = "600px";
+        canvas.style.width = "100vw";
+        canvas.style.height = "calc(100vh - 38px)";
       }
 
       document.querySelector("#unity-loading-bar").style.display = "block";
