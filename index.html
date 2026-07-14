@@ -9,6 +9,13 @@
   
     <link rel="icon" type="image/png" sizes="512x512" href="icons/icon-512.png">
     <meta name="theme-color" content="#000000">
+  
+    <link rel="manifest" href="manifest.webmanifest">
+    <meta name="mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-title" content="Armory &amp; Machine">
+    <link rel="apple-touch-icon" href="icons/apple-touch-icon.png">
+    <script>if('serviceWorker'in navigator){navigator.serviceWorker.register('./sw.js').catch(()=>{})}</script>
   </head>
   <body>
     <div id="unity-container" class="unity-desktop">
